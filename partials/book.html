@@ -38,6 +38,12 @@
         <div class="left-page__actionable" v-attr="style: 'bottom: ' + leftPageObject.videoTrigger.bottom + '; top: ' + leftPageObject.videoTrigger.top"></div>
       </a>
 
+      <a v-if="leftPageObject.video2" v-on="click: showLeftModal" data-remodal-target="modal-video2">
+        <button v-attr="style: 'top: ' + leftPageObject.video2Trigger.top" class="button button--scale button--animated button--trigger" data-remodal-target="modal-video2"><span class="wb-audio"></span></button>
+
+        <div class="left-page__actionable" v-attr="style: 'bottom: ' + leftPageObject.video2Trigger.bottom + '; top: ' + leftPageObject.video2Trigger.top"></div>
+      </a>
+
       <a v-if="leftPageObject.ex" v-on="click: showLeftModal('ex')" data-remodal-target="modal-ex">
         <button v-attr="style: 'top: ' + leftPageObject.exTrigger.top" class="button button--scale button--animated button--trigger" data-remodal-target="modal-ex"><span class="wb-ex"></span></button>
 
@@ -90,6 +96,12 @@
         <button v-attr="style: 'top: ' + rightPageObject.videoTrigger.top" class="button button--scale button--animated button--trigger" data-remodal-target="modal-video"><span class="wb-audio"></span></button>
 
         <div class="right-page__actionable" v-attr="style: 'bottom: ' + rightPageObject.videoTrigger.bottom + '; top: ' + rightPageObject.videoTrigger.top"></div>
+      </a>
+
+      <a v-if="rightPageObject.video2" v-on="click: showRightModal" data-remodal-target="modal-video2">
+        <button v-attr="style: 'top: ' + rightPageObject.video2Trigger.top" class="button button--scale button--animated button--trigger" data-remodal-target="modal-video2"><span class="wb-audio"></span></button>
+
+        <div class="right-page__actionable" v-attr="style: 'bottom: ' + rightPageObject.video2Trigger.bottom + '; top: ' + rightPageObject.video2Trigger.top"></div>
       </a>
 
       <a v-if="rightPageObject.ex" v-on="click: showRightModal('ex')" data-remodal-target="modal-ex">

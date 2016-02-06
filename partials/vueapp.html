@@ -2,6 +2,7 @@
   @@include('./menu.html')
 
   @@include('./modal-video.html')
+  @@include('./modal-video2.html')
   @@include('./modal-static.html')
   @@include('./modal-static2.html')
   @@include('./modal-static3.html')
@@ -17,6 +18,4 @@
     <button v-on="click: prevPages" v-show="canGoBack" class="button button--pagenav button--previous button--translateleft"><span class="wb-arrow-left"></span></button>
     <button v-on="click: nextPages" v-show="canGoForward" class="button button--pagenav button--next button--translateright"><span class="wb-arrow-right"></span></button>
   </div>
-
-  <!-- <pre>{{ $data | json 4 }}</pre> -->
 </div>
