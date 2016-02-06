@@ -907,11 +907,13 @@ module.exports = function() {
     {
       no: 70,
       static: 'pg70ex1s1',
+      staticAudioSrc: 'pg70sc1',
       staticTrigger: {
         bottom: '38%',
         top: '11%'
       },
       static2: 'pg70ex1s2',
+      static2AudioSrc: 'pg70sc2',
       static2Trigger: {
         bottom: '2%',
         top: '62%'
@@ -920,11 +922,13 @@ module.exports = function() {
     {
       no: 71,
       static: 'pg71ex1s1',
+      staticAudioSrc: 'pg71sc1',
       staticTrigger: {
         bottom: '52%',
         top: '4%'
       },
       static2: 'pg71ex1s2',
+      static2AudioSrc: 'pg71sc2',
       static2Trigger: {
         bottom: '2%',
         top: '48%'

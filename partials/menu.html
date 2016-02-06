@@ -26,7 +26,7 @@
     </div>
     <div class="info-pages">
       <button v-on="click: goStatic('toc')" class="button button--block button--default" v-text="site.menu.toc"></button>
-      <button class="button button--block button--default" v-text="site.menu.help"></button>
+      <button v-on="click: goStatic('help')" class="button button--block button--default" v-text="site.menu.help"></button>
     </div>
   </section>
 

@@ -56,6 +56,60 @@ module.exports = function() {
             pageno: '82'
           }
         ]
+      },
+      help: {
+        title: 'Ai nevoie de ajutor?',
+        introParagraphs: [
+          {
+            text: 'Pentru a parcurge lectiile manualului selecteaza din meniul din stanga "Cuprins" sau mergi direct la pagina pe care doresti sa o accesezi.'
+          },
+          {
+            text: 'In aceasta carte poti gasi urmatoarele semne:'
+          }
+        ],
+        outroParagraphs: [
+          {
+            text: 'Dand click pe aceste semne vei putea efectua activitati multimedia interactive si de invatare.'
+          }
+        ],
+        defs: [
+          {
+            icon: 'static',
+            helper: 'mareste imaginea'
+          },
+          {
+            icon: 'audio',
+            helper: 'asculta clipul audio'
+          },
+          {
+            icon: 'ex',
+            helper: 'rezolva exercitiul'
+          },
+          {
+            icon: 'solve',
+            helper: 'vezi solutia'
+          },
+          {
+            icon: 'help',
+            helper: 'cere ajutor'
+          },
+          {
+            icon: 'reset',
+            helper: 'ia exercitiul de la capat'
+          },
+          {
+            icon: 'play',
+            helper: 'asculta cerinta'
+          },
+          {
+            icon: 'pause',
+            helper: 'pune pauza cerintei'
+          },
+          {
+            icon: 'stop',
+            helper: 'opreste cerinta'
+          }
+        ]
       }
     }
   }
