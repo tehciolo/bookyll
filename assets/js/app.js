@@ -276,15 +276,15 @@ new Vue({
       this.$$.startButton.setAttribute('disabled', 'disabled');
       for (var i = 0; i < this.selectedPageObject.ex.data.length; i++) {
         // dragula([document.querySelector('.launch--' + this.selectedPageObject.ex.data[i].rowID), document.querySelector('.target--' + this.selectedPageObject.ex.data[i].rowID)]);
-        var launch = '.launch--' + this.selectedPageObject.ex.data[i].rowID;console.log(launch);
-        var target = '.target--' + this.selectedPageObject.ex.data[i].rowID;console.log(target);
-        var targetScope = this.selectedPageObject.ex.data[i].rowID;
+        var launch = '.launch--' + this.selectedPageObject.ex.data[i].rowID,
+            target = '.target--' + this.selectedPageObject.ex.data[i].rowID,
+            targetScope = this.selectedPageObject.ex.data[i].rowID;
 
         $(launch).addClass('hvr-wobble-horizontal-custom');
 
         $(launch).draggable({
           stack: '.dnd__answer-container',
-          scope: targetScope,
+          /*scope: targetScope,*/
           revert: true,
           start: function( event, ui ) {
             if ($(this).hasClass('hvr-wobble-horizontal-custom')) {
@@ -298,17 +298,32 @@ new Vue({
         });
 
         $(target).droppable({
-          accept: launch,
-          scope: targetScope,
+          accept: '.ui-draggable',
+          /*scope: targetScope,*/
           hoverClass: 'drop-hover',
           drop: function( event, ui ) {
-            var self = $(this);
-            self.addClass( "dropped");
-            ui.draggable.draggable( 'disable' );
-            $(this).droppable( 'disable' );
-            ui.draggable.position( { of: self, my: 'center', at: 'center' } );
-            ui.draggable.draggable( 'option', 'revert', false );
-            window.staticSoundTrue.play();
+            var self = $(this),
+                draggableCurrentRowID = ui.draggable.attr('class').split('--')[1].split(' ')[0],
+                droppableCurrentRowID = self.attr('class').split('--')[1].split(' ')[0];
+
+            /*console.log(draggableCurrentRowID);
+            console.log(droppableCurrentRowID);  */
+
+            if (self.hasClass('ui-droppable')) {
+              self.addClass( "dropped");
+              ui.draggable.draggable( 'option', 'revert', false );
+              ui.draggable.position( { of: self, my: 'center', at: 'center' } );
+            } else {
+              ui.draggable.draggable( 'option', 'revert', true );
+            }
+
+            if (draggableCurrentRowID == droppableCurrentRowID) {
+              ui.draggable.draggable( 'disable' );
+              $(this).droppable( 'disable' );
+              window.staticSoundTrue.play();
+            } else {
+              window.staticSoundFalse.play();
+            }
           }
         });
 

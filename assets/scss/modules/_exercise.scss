@@ -416,13 +416,11 @@
 }
 
 /* razvan */
-/* ex16 */
-img[src*="16ex.jpg"] + form > .typer__wrapper > input[name="sixteen"] {
-    font-weight: bold;
-    font-style: italic;
-}
 
 /* dnd */
+.ui-droppable.dropped {
+    background-color: #fff;
+}
 .dnd__dropzone-row > div {
     box-sizing: border-box;
 }
@@ -438,7 +436,8 @@ img[src*="16ex.jpg"] + form > .typer__wrapper > input[name="sixteen"] {
     background-color: #fff;
     box-shadow: 0 1px 5px;
 }
-.ui-droppable-disabled {
+.ui-droppable.dropped.ui-droppable-disabled {
+    background-color: rgba(108, 190, 176, 0.3);
     border: 1px solid #59BF0D;
 }
 .ui-draggable-disabled .dnd__sandbox-a {
