@@ -8,7 +8,7 @@
       <span class="wb-solve"></span>
     </button>
 
-    <button v-if="selectedPageObject.ex2.help" class="button button--help button--scale" type="button">
+    <button v-if="selectedPageObject.ex2.help" class="button button--help button--scale" type="button" v-on="click: selectedPageObject.ex2.help.toggle = !selectedPageObject.ex2.help.toggle">
       <span class="wb-help"></span>
     </button>
 
@@ -27,6 +27,10 @@
     <button class="button button--reset button--scale" type="reset" v-on="click: resetForm">
       <span class="wb-reset"></span>
     </button>
+
+    <section v-show="selectedPageObject.ex2.help.toggle" class="help">
+      <span v-text="selectedPageObject.ex2.help.text"></span>
+    </section>
 
     <div
       v-repeat="row in selectedPageObject.ex2.data"

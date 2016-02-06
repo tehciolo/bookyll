@@ -64,6 +64,10 @@ module.exports = function() {
       ex2: {
         name: 'typer',
         bg: '14ex2',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si scrie in casute ordinea in care auzi propozitiile. Acum completeaza propozitiile cu forma corecta. Asculta din nou si verifica-te. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg14ex2',
         data: [
@@ -145,6 +149,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '15ex',
+        help: {
+          toggle: false,
+          text: 'Priveste cu atentie si trage linie intre imaginile care exprima contast. Acum completeaza cuvintele cu sens opus. Succes! '
+        },
         data: [
           {
             identifier: 'one',
@@ -231,6 +239,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '19ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg19ex2',
         data: [
@@ -289,6 +301,10 @@ module.exports = function() {
       ex: {
         name: 'typerbg',
         bg: '20ex',
+        help: {
+          toggle: false,
+          text: 'Priveste imaginile si alege titlul potrivit. Acum citeste fiecare text si uneste atat titlul, cat si imaginea, cu textul corespunzator. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -407,6 +423,10 @@ module.exports = function() {
       ex: {
         name: 'typerbg',
         bg: '32ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si citeste textul. Acum uneste cu o linie paragrafele cu imaginile potrivite. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg32-33ex1',
         data: [
@@ -524,6 +544,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '36ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg36ex2',
         data: [
@@ -582,6 +606,10 @@ module.exports = function() {
       ex: {
         name: 'typerbg',
         bg: '37ex',
+        help: {
+          toggle: false,
+          text: 'Priveste imaginile si citeste textele. Acum uneste cu o linie paragrafele cu imaginile potrivite. O imagine ramane nefolosita. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -682,6 +710,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '52ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg52ex5',
         data: [
@@ -773,6 +805,10 @@ module.exports = function() {
       ex: {
         name: 'circleselect',
         bg: '61ex',
+        help: {
+          toggle: false,
+          text: 'Citeste seriile de cuvinte si incercuieste cuvantul care nu se potriveste in fiecare serie. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -848,6 +884,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '67ex2',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg67ex2',
         data: [
@@ -965,6 +1005,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '74ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg74ex2',
         data: [
@@ -1036,6 +1080,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '77ex',
+        help: {
+          toggle: false,
+          text: 'Asculta cu atentie si bifeaza raspunsul corect. Succes!'
+        },
         audio: 'stopped',
         audioSrc: 'pg77ex2',
         data: [

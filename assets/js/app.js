@@ -160,7 +160,7 @@ new Vue({
       }
       this.selectModalContent();
     },
-    showRightModal: function() {
+    showRightModal: function(order) {
       this.selectedPageObject = this.rightPageObject;
       if (this.selectedPageObject[order].audio) {
         window[order + this.selectedPageObject.no] = new Howl({
@@ -350,10 +350,8 @@ new Vue({
     },
     playStaticSound: function(bool) {
       if (bool == 'true') {
-        console.log(bool + 'should be true');
         window.staticSoundTrue.play();
       } else if (bool == 'false') {
-        console.log(bool + 'should be false');
         window.staticSoundFalse.play();
       }
     },
