@@ -81,6 +81,10 @@ module.exports = function() {
       ex: {
         name: 'typerbg',
         bg: '12ex',
+        help: {
+          toggle: false,
+          text: 'Asculta, priveste imaginile si scrie numarul corespunzator. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -133,6 +137,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '14ex',
+        help: {
+          toggle: false,
+          text: 'Asculta si completeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -176,6 +184,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '15ex',
+        help: {
+          toggle: false,
+          text: 'Asculta si completeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -232,6 +244,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '16ex',
+        help: {
+          toggle: false,
+          text: 'Asculta si completeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -297,7 +313,7 @@ module.exports = function() {
             identifier: 'eleven',
             position: 'top: 96.2%; left: 20.3%; width: 22%',
             model: '',
-            solution: 'die staße'
+            solution: 'die Straße'
           }
         ]
       }
@@ -364,6 +380,10 @@ module.exports = function() {
       ex: {
         name: 'typerbg',
         bg: '21ex',
+        help: {
+          toggle: false,
+          text: 'Completeaza careul cu cuvintele corespunzatoare imaginilor respectand numerotarea. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -756,6 +776,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '22ex',
+        help: {
+          toggle: false,
+          text: 'Citeste, scrie numele cladirilor si deseneaza drumul. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -828,6 +852,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '25ex',
+        help: {
+          toggle: false,
+          text: 'Completeaza cu formele verbelor “müssen” si “wollen”. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -937,6 +965,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '30ex',
+        help: {
+          toggle: false,
+          text: 'Asculta, scrie numele copiilor si canta. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -980,60 +1012,64 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '31ex',
+        help: {
+          toggle: false,
+          text: 'Citeste si completeaza cu numele tarilor din caseta. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
             position: 'top: 38%; left: 25%; width: 46%',
             model: '',
-            solution: 'frankreich'
+            solution: 'Frankreich'
           },
           {
             identifier: 'two',
             position: 'top: 43%; left: 29%; width: 40%',
             model: '',
-            solution: 'griechenland'
+            solution: 'Griechenland'
           },
           {
             identifier: 'three',
             position: 'top: 47.8%; left: 18%; width: 56%',
             model: '',
-            solution: 'deutschland'
+            solution: 'Deutschland'
           },
           {
             identifier: 'four',
             position: 'top: 52.6%; left: 26%; width: 44.5%',
             model: '',
-            solution: 'brasilien'
+            solution: 'Brasilien'
           },
           {
             identifier: 'five',
             position: 'top: 57.5%; left: 24%; width: 47.3%',
             model: '',
-            solution: 'marokko'
+            solution: 'Marokko'
           },
           {
             identifier: 'six',
             position: 'top: 62.2%; left: 39.5%; width: 25%',
             model: '',
-            solution: 'spanien'
+            solution: 'Spanien'
           },
           {
             identifier: 'seven',
             position: 'top: 67%; left: 21%; width: 51.5%',
             model: '',
-            solution: 'china'
+            solution: 'China'
           },
           {
             identifier: 'eight',
             position: 'top: 72%; left: 20%; width: 53%',
             model: '',
-            solution: 'italien'
+            solution: 'Italien'
           },
           {
             identifier: 'nine',
             position: 'top: 76.7%; left: 24%; width: 47.2%',
             model: '',
-            solution: 'russland'
+            solution: 'Russland'
           }
         ]
       }
@@ -1053,6 +1089,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '32ex',
+        help: {
+          toggle: false,
+          text: 'Asculta si bifeaza raspunsul correct! Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -1253,6 +1293,10 @@ module.exports = function() {
       ex: {
         name: 'dnd',
         bg: '',
+        help: {
+          toggle: false,
+          text: 'Trage raspunsul corespunzator in dreptul intrebarii corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         solution: false,
         data: [
           {
@@ -1373,6 +1417,11 @@ module.exports = function() {
       videoTrigger: {
         bottom: '60%',
         top: '14%'
+      },
+      video2: 'p55_v2.mp4',
+      video2Trigger: {
+        bottom: '4%',
+        top: '41%'
       }
     },
     {
@@ -1432,6 +1481,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '61ex',
+        help: {
+          toggle: false,
+          text: 'Completeaza enunturile cu ora indicate de ceas si verbul care exprima actiunea ilustrata. Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -1449,7 +1502,7 @@ module.exports = function() {
             identifier: 'three',
             position: 'top: 64.5%; left: 42%; width: 25%',
             model: '',
-            solution: 'vier uhr'
+            solution: 'vier Uhr'
           },
           {
             identifier: 'four',
@@ -1498,6 +1551,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '65ex',
+        help: {
+          toggle: false,
+          text: 'Priveste imaginile si completeaza cu forma corespunzatoare a adjectivului.  Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -1557,6 +1614,10 @@ module.exports = function() {
       ex: {
         name: 'mediumselect',
         bg: '68ex',
+        help: {
+          toggle: false,
+          text: 'Citeste propozitiile si bifeaza R (correct) sau F (gresit). Cand ai terminat apasa pe cheita si verifica. Succes!'
+        },
         data: [
           {
             identifier: 'one',
@@ -1602,15 +1663,7 @@ module.exports = function() {
           }
         ]
       }
-    },
-    {
-      no: 71,
-      video: 'p71_v1.mp4',
-      videoTrigger: {
-        bottom: '4%',
-        top: '14%'
-      }
-    },
+    },    
     {
       no: 75,
       video: 'p75_v1.mp4',
