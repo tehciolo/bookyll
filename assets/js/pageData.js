@@ -67,7 +67,7 @@ module.exports = function() {
             identifier: 'two',
             position: 'top: 26%; left: 14%; width: 30%',
             model: '',
-            solution: 'Regnerisch'
+            solution: 'regnerisch'
           },
           {
             identifier: 'three',
@@ -448,8 +448,8 @@ module.exports = function() {
     {
       no: 23,
       title: 'Wo sind die Lebensmittel? Ergänze!',
-      static: 'pg23ex5',
-      staticTrigger: {
+      video: 'p23_v1.mp4',
+      videoTrigger: {
         bottom: '4%',
         top: '57%'
       },
@@ -1777,7 +1777,7 @@ module.exports = function() {
     },
     {
       no: 65,
-      title: 'Ergänze, kreuze an und lies der Klasse vor!',
+      title: 'Ergänze, kreuze an und lies der Klasse vor!',      
       exTrigger: {
         bottom: '53%',
         top: '13%'
@@ -1785,6 +1785,10 @@ module.exports = function() {
       ex: {
         name: 'typer',
         bg: '65ex',
+        help: {
+          toggle: false,
+          text: 'Citeste enunturile si completeaza spatiile punctate cu unul din cuvintele date: bei, beim, bei der, zum, zur. Succes!'
+        },
         data: [
           {
             identifier: 'one',
