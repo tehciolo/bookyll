@@ -3,7 +3,7 @@
 >
   <img v-attr="src: './assets/img/' + selectedPageObject.ex.bg + '.jpg'">
 
-  <form class="exercise__container">
+  <form class="exercise__container id--{{ selectedPageObject.no }}">
     <button class="button button--solve button--scale" type="button" v-on="click: solveForm">
       <span class="wb-solve"></span>
     </button>

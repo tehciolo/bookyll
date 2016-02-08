@@ -412,6 +412,35 @@
 
 /* razvan */
 
+.id--18 input[type="text"] {
+    border-bottom: 1px dashed #bbb; 
+}
+
+.id--35 .dnd__answer-container {
+    width: 50%;
+}
+.id--35 .ui-droppable {
+    height: 72px;   
+}
+.id--35 .dnd__sandbox {
+    line-height: 0.5;
+}
+
+.id--51 .typer__wrapper {
+  border: 2px solid red;
+  border-radius: 14px;
+  width: 20px;
+}
+.id--51 .typer__wrapper input[type="text"] {
+    width: 20px;
+}
+.id--51 .typer__wrapper .wb-cancel, 
+.id--51 .typer__wrapper .wb-checkmark {
+    position: absolute;
+    left: 4px;
+    top: -20px;
+}
+
 /* dnd */
 .ui-droppable.dropped {
     background-color: #fff;

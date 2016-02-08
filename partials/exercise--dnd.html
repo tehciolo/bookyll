@@ -3,7 +3,7 @@
 >
   <img v-attr="src: './assets/img/-2.jpg'">
 
-  <form class="exercise__container">
+  <form class="exercise__container id--{{ selectedPageObject.no }}">
     <button class="button button--solve button--scale" type="button" v-on="click: selectedPageObject.ex.solution = !selectedPageObject.ex.solution">
       <span class="wb-solve"></span>
     </button>
@@ -35,14 +35,14 @@
     <section class="remodal__navigation">
       <button
         v-on="click: interactNow"
-        v-text="'Incepe'"
+        v-text="'Start'"
         v-el="startButton"
         class="button button--reversed button--large"
       >
       </button>
     </section>
 
-    <p>Gaseste raspunsurile corecte</p>
+    <p>&nbsp;</p>
 
     <div v-el="sandbox" class="dnd__sandbox">
       <div
@@ -71,7 +71,7 @@
     </div>
 
     <p v-show="selectedPageObject.ex.solution">
-      <strong>Solutie:</strong>
+      
       <span
         v-repeat="row in selectedPageObject.ex.data"
         v-text="row.questionID + '-' + row.answerID"

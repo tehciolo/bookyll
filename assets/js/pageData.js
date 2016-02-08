@@ -23,6 +23,27 @@ module.exports = function() {
       staticTrigger: {
         bottom: '81%',
         top: '3%'
+      },
+      video: 'p9_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '70%'
+      }
+    },
+    {
+      no: 10,      
+      video: 'p10_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '14%'
+      }
+    },
+    {
+      no: 11,      
+      video: 'p11_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '6%'
       }
     },
     {
@@ -40,6 +61,11 @@ module.exports = function() {
     },
     {
       no: 13,
+      video: 'p13_v1.mp4',
+      videoTrigger: {
+        bottom: '50%',
+        top: '6%'
+      },
       static: 'pg13ex3',
       staticTrigger: {
         bottom: '30%',
@@ -60,6 +86,27 @@ module.exports = function() {
       }
     },
     {
+      no: 15,
+      video: 'p15_v1.mp4',
+      videoTrigger: {
+        bottom: '39%',
+        top: '13%'
+      },
+      video2: 'p15_v2.mp4',
+      video2Trigger: {
+        bottom: '4%',
+        top: '62%'
+      }
+    },
+    {
+      no: 16,
+      video: 'p16_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '14%'
+      }
+    },
+    {
       no: 17,
       static: 'pg17ex1',
       staticAudioSrc: 'pg17ex1',
@@ -70,21 +117,142 @@ module.exports = function() {
     },
     {
       no: 18,
-      title: '',
+      title: 'Vocabulary. Copy the chart and classify the words.',
       title2: 'Listen and put a token on the correct answer.',
       title3: 'Look at pages 10-11 and complete the sentences.',
       exTrigger: {
-        bottom: '35%',
-        top: '34%'
+        bottom: '66%',
+        top: '9%'
       },
       ex: {
-        name: 'dnd',
+        name: 'typer',
         bg: '18ex1',
         help: {
           toggle: false,
-          text: 'Trage fiecare cuvant sub titlul potrivit. Succes!'
+          text: 'Scrie fiecare cuvant sub titlul potrivit. Succes!'
         },
-        data: []
+        data: [
+          {
+            identifier: 'one',
+            position: 'top: 42%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'two',
+            position: 'top: 46%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'three',
+            position: 'top: 50%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'four',
+            position: 'top: 54%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'five',
+            position: 'top: 58%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'six',
+            position: 'top: 61.5%; left: 10%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'seven',
+            position: 'top: 38%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'eight',
+            position: 'top: 42%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'nine',
+            position: 'top: 46%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'ten',
+            position: 'top: 50%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'eleven',
+            position: 'top: 54%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'twelve',
+            position: 'top: 58%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'thirteen',
+            position: 'top: 61.5%; left: 38%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'fourteen',
+            position: 'top: 38%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'fifteen',
+            position: 'top: 42%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'sixteen',
+            position: 'top: 46%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'seventeen',
+            position: 'top: 50%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'eighteen',
+            position: 'top: 54%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'nineteen',
+            position: 'top: 58%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          },
+          {
+            identifier: 'tweny',
+            position: 'top: 61.5%; left: 66%; width: 25%',
+            model: '',
+            solution: null
+          }            
+        ]
       },
       ex2Trigger: {
         bottom: '35%',
@@ -229,10 +397,36 @@ module.exports = function() {
       static2Trigger: {
         bottom: '48%',
         top: '17%'
+      },
+      video: 'p21_v1.mp4',
+      videoTrigger: {
+        bottom: '7%',
+        top: '63%'
+      }
+    },
+    {
+      no: 22,
+      video: 'p22_v1.mp4',
+      videoTrigger: {
+        bottom: '3%',
+        top: '8%'
+      }
+    },
+    {
+      no: 23,
+      video: 'p23_v1.mp4',
+      videoTrigger: {
+        bottom: '3%',
+        top: '8%'
       }
     },
     {
       no: 24,
+      video: 'p24_v1.mp4',
+      videoTrigger: {
+        bottom: '41%',
+        top: '12%'
+      },
       static: 'pg24Doyouknow',
       staticTrigger: {
         bottom: '21%',
@@ -339,6 +533,35 @@ module.exports = function() {
       }
     },
     {
+      no: 28,
+      video: 'p28_v1.mp4',
+      videoTrigger: {
+        bottom: '41%',
+        top: '12%'
+      },
+      video2: 'p28_v2.mp4',
+      video2Trigger: {
+        bottom: '4%',
+        top: '59%'
+      }
+    },
+    {
+      no: 29,
+      video: 'p29_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '12%'
+      }
+    },
+    {
+      no: 30,
+      video: 'p30_v1.mp4',
+      videoTrigger: {
+        bottom: '36%',
+        top: '12%'
+      }
+    },
+    {
       no: 31,
       title: 'Read and match the paragraphs to the photos.',
       exTrigger: {
@@ -350,7 +573,7 @@ module.exports = function() {
         bg: '31ex',
         help: {
           toggle: false,
-          text: 'Asculta cu atentie si citeste textul. Acum uneste cu o linie propozitiile cu imaginile potrivite. Succes!'
+          text: 'Asculta cu atentie si scrie ordinea in care auzi fragmentele. Succes!'
         },
         audio: 'stopped',
         audioSrc: 'pg31-32ex1',
@@ -465,12 +688,35 @@ module.exports = function() {
     },
     {
       no: 35,
+      exTrigger: {
+        bottom: '50%',
+        top: '8%'
+      },
       ex: {
+        name: 'dnd',
+        bg: '',
         help: {
           toggle: false,
-          text: 'Citeste textele si trage jumatatea potrivita sub fiecare text. Succes!'
-        }
-      }
+          text: 'Trage fiecare propozitie in dreptul celei corespunzatoare. Succes!'
+        },        
+        solution: false,
+        data: [
+          {
+            rowID: 'one',
+            questionID: 'A',
+            questionText: 'Elephants are very large mammals. They\'ve got enormous ears, long trunks and strong legs.',
+            answerID: '2',
+            answerText: 'They can\'t climb but they can run and swim. They haven\'t got claws. They eat grass and leaves for up to 20 hours a day.'
+          },
+          {
+            rowID: 'two',
+            questionID: 'B',
+            questionText: 'I\'m Rosa from Spain. I live in Granada in a big house. I love animals. I\'ve got two pets, a dog and a parrot.',
+            answerID: '1',
+            answerText: 'My dog is brown and white. His name is Sam. My parrot is great! It\'s got red, green and yellow feathers and it can talk.'
+          }
+        ]
+      } 
     },
     {
       no: 36,
@@ -487,10 +733,36 @@ module.exports = function() {
       staticTrigger: {
         bottom: '82%',
         top: '2%'
+      },
+      video: 'p37_v1.mp4',
+      videoTrigger: {
+        bottom: '6%',
+        top: '62%'
+      }
+    },
+    {
+      no: 38,      
+      video: 'p38_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '12%'
+      }
+    },
+    {
+      no: 39,      
+      video: 'p39_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '7%'
       }
     },
     {
       no: 40,
+      video: 'p40_v1.mp4',
+      videoTrigger: {
+        bottom: '32%',
+        top: '14%'
+      },
       static: 'pg40smartcheck',
       staticTrigger: {
         bottom: '6%',
@@ -522,11 +794,32 @@ module.exports = function() {
       }
     },
     {
+      no: 45,
+      video: 'p45_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '12%'
+      }
+    },
+    {
       no: 46,
+      video: 'p46_v1.mp4',
+      videoTrigger: {
+        bottom: '35%',
+        top: '12%'
+      },
       static: 'pg46smartcheck',
       staticTrigger: {
         bottom: '8%',
         top: '67%'
+      }
+    },
+    {
+      no: 47,
+      video: 'p47_v1.mp4',
+      videoTrigger: {
+        bottom: '7%',
+        top: '12%'
       }
     },
     {
@@ -648,6 +941,48 @@ module.exports = function() {
       }
     },
     {
+      no: 51,
+      title: 'Read and rewrite this letter in the correct order.',
+      exTrigger: {
+        bottom: '60%',
+        top: '12%'
+      },
+      ex: {
+        name: 'typer',
+        bg: 'pg51-ex5',
+        help: {
+          toggle: false,
+          text: 'Citeste si scrie numarul de ordine pentru paragrafe astfel incat sa completezi scrisoarea. Succes!'
+        },
+        data: [
+          {
+            identifier: 'one',
+            position: 'top: 25.4%; left: 1.9%',
+            model: '',
+            solution: '4'
+          },
+          {
+            identifier: 'two',
+            position: 'top: 37.4%; left: 1.9%',
+            model: '',
+            solution: '1'
+          },
+          {
+            identifier: 'three',
+            position: 'top: 49.4%; left: 1.9%',
+            model: '',
+            solution: '3'
+          },
+          {
+            identifier: 'four',
+            position: 'top: 60.4%; left: 1.9%',
+            model: '',
+            solution: '2'
+          }
+        ]
+      }
+    },
+    {
       no: 52,
       static: 'pg52-53ex1',
       staticAudioSrc: 'pg52-53ex1',
@@ -662,10 +997,36 @@ module.exports = function() {
       staticTrigger: {
         bottom: '85%',
         top: '2%'
+      },
+      video: 'p53_v1.mp4',
+      videoTrigger: {
+        bottom: '9%',
+        top: '58%'
+      }
+    },
+    {
+      no: 54,
+      video: 'p54_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '12%'
+      }
+    },
+    {
+      no: 55,
+      video: 'p55_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '8%'
       }
     },
     {
       no: 56,
+      video: 'p56_v1.mp4',
+      videoTrigger: {
+        bottom: '47%',
+        top: '12%'
+      },
       static: 'pg56ex2',
       staticTrigger: {
         bottom: '11%',
@@ -681,6 +1042,14 @@ module.exports = function() {
       }
     },
     {
+      no: 58,
+      video: 'p58_v1.mp4',
+      videoTrigger: {
+        bottom: '64%',
+        top: '8%'
+      }
+    },
+    {
       no: 59,
       static: 'pg59play',
       staticTrigger: {
@@ -690,10 +1059,36 @@ module.exports = function() {
     },
     {
       no: 60,
+      video: 'p60_v1.mp4',
+      videoTrigger: {
+        bottom: '30%',
+        top: '8%'
+      },
       static: 'pg60smartcheck',
       staticTrigger: {
         bottom: '12%',
         top: '71%'
+      }
+    },
+    {
+      no: 61,
+      video: 'p61_v1.mp4',
+      videoTrigger: {
+        bottom: '37%',
+        top: '12%'
+      },
+      video2: 'p61_v2.mp4',
+      video2Trigger: {
+        bottom: '4%',
+        top: '63%'
+      }
+    },
+    {
+      no: 62,
+      video: 'p62_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '12%'
       }
     },
     {
@@ -713,48 +1108,48 @@ module.exports = function() {
         bg: '64ex',
         help: {
           toggle: false,
-          text: 'Citeste fiecare enunt si apasa pe V daca este adevarat si pe F daca este fals. Succes!'
+          text: 'Citeste fiecare enunt si apasa pe T daca este adevarat si pe F daca este fals. Succes!'
         },
         data: [
           {
             identifier: 'one',
             model: '',
-            position: 'top: 20.5%; height: 3.5%;',
+            position: 'top: 20.5%; height: 3.5%; position: absolute; width: 100%;',
             answerTrue: 'right: 34.3%',
             answerFalse: 'right: 28.6%'
           },
           {
             identifier: 'two',
             model: '',
-            position: 'top: 25.5%; height: 3.5%;',
+            position: 'top: 29.5%; height: 3.5%; position: absolute; width: 100%;',
             answerFalse: 'right: 34.3%',
             answerTrue: 'right: 28.6%'
           },
           {
             identifier: 'three',
             model: '',
-            position: 'top: 30.5%; height: 3.5%;',
+            position: 'top: 37.5%; height: 3.5%; position: absolute; width: 100%;',
             answerTrue: 'right: 34.3%',
             answerFalse: 'right: 28.6%'
           },
           {
             identifier: 'four',
             model: '',
-            position: 'top: 40.5%; height: 3.5%;',
+            position: 'top: 50.8%; height: 3.5%; position: absolute; width: 100%;',
             answerFalse: 'right: 34.3%',
             answerTrue: 'right: 28.6%'
           },
           {
             identifier: 'five',
             model: '',
-            position: 'top: 46%; height: 3.5%;',
+            position: 'top: 60%; height: 3.5%; position: absolute; width: 100%;',
             answerTrue: 'right: 34.3%',
             answerFalse: 'right: 28.6%'
           },
           {
             identifier: 'six',
             model: '',
-            position: 'top: 51.5%; height: 3.5%;',
+            position: 'top: 69%; height: 3.5%; position: absolute; width: 100%;',
             answerTrue: 'right: 34.3%',
             answerFalse: 'right: 28.6%'
           }
@@ -789,8 +1184,8 @@ module.exports = function() {
             identifier: 'two',
             model: '',
             position: 'top: 25.5%; height: 9%; position: absolute; width: 50%; left: 50%',
-            answerFalse: 'right: 56.5%',
-            answerTrue: 'right: 28.5%'
+            answerFalse: 'right: 28.5%',
+            answerTrue: 'right: 56.5%'
           },
           {
             identifier: 'three',
@@ -1110,7 +1505,7 @@ module.exports = function() {
         bg: '71ex',
         help: {
           toggle: false,
-          text: 'Citeste textul si uneste cu o linie paragrafele cu imaginile potrivite. Succes!'
+          text: 'Asculta cu atentie si scrie ordinea in care auzi fragmentele. Succes!'
         },
         data: [
           {
@@ -1289,6 +1684,14 @@ module.exports = function() {
       }
     },
     {
+      no: 79,
+      video: 'p79_v1.mp4',
+      videoTrigger: {
+        bottom: '4%',
+        top: '8%'
+      }
+    },
+    {
       no: 80,
       title: 'Choose the correct item:',
       exTrigger: {
@@ -1300,7 +1703,7 @@ module.exports = function() {
         bg: '80ex',
         help: {
           toggle: false,
-          text: 'Citeste propozitiile si incercuieste varianta corecta. Succes!'
+          text: 'Citeste propozitiile si completeaza cu forma corecta din cele trei variante. Succes!'
         },
         data: [
           {
